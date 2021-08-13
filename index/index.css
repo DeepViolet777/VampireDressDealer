@@ -1,0 +1,87 @@
+@import url(../css/global.css);
+.header {
+  margin: 0 auto;
+  max-width: 1440px;
+  height: 887px;
+  background-image: url(../img/slider_1.jpg);
+  background-repeat: no-repeat;
+}
+
+.header_top-panel {
+  position: relative;
+  top: 0;
+}
+
+.header_logo {
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 32px;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+.header_logo:hover {
+  opacity: 0.7;
+}
+
+.header .menu a {
+  color: #FFFFFF;
+}
+
+.header .menu_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 675px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'PlayfairDisplay', sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  position: absolute;
+  top: 27px;
+  right: 140px;
+}
+
+.header .menu_item {
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+.header .menu_item:hover {
+  opacity: 0.7;
+}
+
+.header_basket {
+  position: relative;
+  top: 37px;
+  left: 1345px;
+  width: 38px;
+  height: 30px;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+.header_basket::before {
+  position: absolute;
+  content: "";
+  width: 38px;
+  height: 30px;
+  background-image: url(../img/shopping_cart.svg);
+}
+
+.header_basket:hover {
+  opacity: 0.7;
+}
+
+.header hr {
+  position: absolute;
+  width: 878px;
+  height: 1px;
+  background-color: #E5EEF5;
+  opacity: 0.5;
+  top: 92px;
+  right: 0;
+}
+/*# sourceMappingURL=index.css.map */
