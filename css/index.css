@@ -1,15 +1,14 @@
-@import url(global.css);
+@import url(../css/global.css);
 .header {
   margin: 0 auto;
   max-width: 1440px;
   height: 887px;
-  background-image: url(../img/slider_1.jpg);
-  background-repeat: no-repeat;
 }
 
 .header_top-panel {
   position: relative;
   top: 0;
+  z-index: 2;
 }
 
 .header_logo {
@@ -83,5 +82,20 @@
   opacity: 0.5;
   top: 92px;
   right: 0;
+}
+
+.header .swiper {
+  width: 1440px;
+  height: 887px;
+}
+
+.header .swiper-wrapper {
+  width: 1440px;
+  height: 887px;
+}
+
+.header .swiper-slide {
+  width: 1440px;
+  height: 887px;
 }
 /*# sourceMappingURL=index.css.map */

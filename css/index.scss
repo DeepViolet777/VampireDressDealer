@@ -4,12 +4,11 @@
     margin: 0 auto;
     max-width: 1440px;
     height: 887px;
-    background-image: url(../img/slider_1.jpg);
-    background-repeat: no-repeat;
-
+    
     &_top-panel {
         position: relative;
         top: 0;
+        z-index: 2;
     }
 
     &_logo {
@@ -81,5 +80,21 @@
         opacity: 0.5;
         top: 92px;
         right: 0;
+    }
+
+    .swiper{
+        width: 1440px;
+        height: 887px;
+
+        &-wrapper{
+            width: 1440px;
+            height: 887px;
+        }
+
+        &-slide{
+            width: 1440px;
+            height: 887px;
+        } 
+
     }
 }

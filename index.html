@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vampire Dress Dealer</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
     <header class="header">
         <div class="header_top-panel">
             <a href="#" class="header_logo logo">
-                <img src="img/Logo-final_white 1.svg" class="logo_img" alt="Vampire DressDealer" width="396px" height="169px">
+                <img src="img/Logo-final_white 1.svg" class="logo_img" alt="Vampire DressDealer" width="396px"
+                    height="169px">
             </a>
             <nav class="header_menu menu">
                 <ul class="menu_list">
@@ -33,6 +37,30 @@
             <a href="#" class="header_basket"></a>
             <hr>
         </div>
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide slide">
+                    <img src="./img/slider_1.jpg" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="./img/slider_1.jpg" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="./img/slider_1.jpg" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="./img/slider_1.jpg" alt="">
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+        </div>
     </header>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
