@@ -150,11 +150,42 @@ margin-top: 24px;
 
 .swiper{
 width: 1440px;
+height: 431px;
+overflow: hidden;
+
     &-wrapper{
 width: 1280px;
-
+height: 431px;
 }
 
+&-button-prev{
+    position: relative;
+
+    &::after{
+        position: absolute;
+        top: -200px;
+        left: -30px;
+        content: "";
+        width: 52px;
+        height: 52px;
+        background-image: url(../img/Prev.svg);
+    }
+}
+
+
+&-button-next{
+    position: relative;
+
+    &::after{
+        position: absolute;
+        top: -200px;
+        left: 1200px;
+        content: "";
+        width: 52px;
+        height: 52px;
+        background-image: url(../img/Next.svg);
+    }
+}
 
 }
 }

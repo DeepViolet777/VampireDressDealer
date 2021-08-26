@@ -154,10 +154,40 @@
 
 .featured .swiper {
   width: 1440px;
+  height: 431px;
+  overflow: hidden;
 }
 
 .featured .swiper-wrapper {
   width: 1280px;
-  margin: 0 auto;
+  height: 431px;
+}
+
+.featured .swiper-button-prev {
+  position: relative;
+}
+
+.featured .swiper-button-prev::after {
+  position: absolute;
+  top: -200px;
+  left: -30px;
+  content: "";
+  width: 52px;
+  height: 52px;
+  background-image: url(../img/Prev.svg);
+}
+
+.featured .swiper-button-next {
+  position: relative;
+}
+
+.featured .swiper-button-next::after {
+  position: absolute;
+  top: -200px;
+  left: 1200px;
+  content: "";
+  width: 52px;
+  height: 52px;
+  background-image: url(../img/Next.svg);
 }
 /*# sourceMappingURL=index.css.map */
