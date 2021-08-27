@@ -146,48 +146,125 @@
 
 .featured {
   margin-top: 24px;
+  margin-bottom: 132px;
 }
 
 .featured-title {
   margin-bottom: 24px;
 }
 
-.featured .swiper {
-  width: 1440px;
-  height: 431px;
-  overflow: hidden;
+.featured-slider {
+  margin: 0 auto;
 }
 
-.featured .swiper-wrapper {
-  width: 1280px;
+.featured .swiper-container {
+  width: 1300px;
   height: 431px;
 }
 
-.featured .swiper-button-prev {
+.featured .swiper-navigation {
   position: relative;
 }
 
-.featured .swiper-button-prev::after {
+.featured .swiperPrev {
   position: absolute;
-  top: -200px;
-  left: -30px;
-  content: "";
+  border: none;
   width: 52px;
   height: 52px;
+  border-radius: 50%;
   background-image: url(../img/Prev.svg);
+  top: -240px;
+  left: 10px;
+  cursor: pointer;
 }
 
-.featured .swiper-button-next {
-  position: relative;
-}
-
-.featured .swiper-button-next::after {
+.featured .swiperNext {
   position: absolute;
-  top: -200px;
-  left: 1200px;
-  content: "";
+  border: none;
   width: 52px;
   height: 52px;
+  border-radius: 50%;
   background-image: url(../img/Next.svg);
+  top: -240px;
+  left: 1380px;
+  cursor: pointer;
+}
+
+.featured .swiper-slide {
+  width: 307px;
+  height: 431px;
+}
+
+.featured .swiper .slide {
+  position: relative;
+  width: 307px;
+  height: 431px;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.featured .swiper .slide:hover .slide_content {
+  opacity: 1;
+}
+
+.featured .swiper .slide_content {
+  position: absolute;
+  top: 134px;
+  left: 0;
+  width: 259px;
+  height: 134px;
+  font-family: 'PlayfairDisplay', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  color: #FFFFFF;
+  width: 287px;
+  height: 161px;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 10;
+  opacity: 0;
+}
+
+.featured .swiper .slide_img {
+  position: absolute;
+  left: 20px;
+  top: 0;
+}
+
+.about {
+  margin-bottom: 131px;
+}
+
+.about-title {
+  text-align: left;
+  margin-left: 55px;
+}
+
+.about-text {
+  width: 1248px;
+  height: 306px;
+  margin-left: 55px;
+  font-family: 'PlayfairDisplay', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.prints {
+  margin-bottom: 132px;
+}
+
+.prints-title {
+  margin-bottom: 50px;
+}
+
+.prints .gallery-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1345px;
 }
 /*# sourceMappingURL=index.css.map */
