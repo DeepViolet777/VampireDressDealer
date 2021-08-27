@@ -27,11 +27,11 @@ const swiperFeatured = new Swiper('.featured-swiper', {
     prevEl: '.swiper-button-prev',
   },
 
- /* autoplay: {
+  autoplay: {
     delay: 3000,
     disableOnInteraction: false,
     speed: 500,
-  }*/
+  },
 
 });
 
