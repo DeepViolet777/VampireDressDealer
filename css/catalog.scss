@@ -1,0 +1,123 @@
+@import url(normalize.css);
+
+@import url(global.css);
+
+
+.header {
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 169px;
+    color: #000000;
+    margin-bottom: 59px;
+
+    &_top-panel {
+        position: relative;
+        top: 0;
+        z-index: 2;
+    }
+
+    &_logo {
+        position: absolute;
+        margin-top: 16px;
+        margin-left: 32px;
+        transition: .2s ease-out;
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+
+    .menu {
+
+        a {
+            color: #000000;
+            opacity: 0.7;
+
+            &:hover{
+                opacity: 1;
+            }
+
+            &:active{
+                opacity: 0.3;
+            }
+        }
+
+
+        &_list {
+            display: flex;
+            width: 675px;
+            justify-content: space-between;
+            font-family: 'PlayfairDisplay', sans-serif;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 48px;
+            position: absolute;
+            top: 27px;
+            right: 140px;
+        }
+
+        &_item {
+            transition: .2s ease-out;
+            opacity: 0.7;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    &_basket {
+        position: relative;
+        top: 33px;
+        left: 1350px;
+        width: 38px;
+        height: 30px;
+        transition: .2s ease-out;
+        opacity: 0.5;
+
+        &::before {
+            position: absolute;
+            content: "";
+            width: 41px;
+            height: 41px;
+            background-image: url(../img/shopping_cart_black.svg);
+            
+
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    hr {
+        position: absolute;
+        width: 878px;
+        height: 1px;
+        background-color: #E5EEF5;
+        opacity: 0.5;
+        top: 92px;
+        right: 0;
+    }
+}
+
+.catalog{
+    width: 1408px;
+    margin: 0 auto;
+    position: relative;
+    border: 2px solid red;
+
+&-menu{
+position: absolute;
+top: 0;
+left: 0;
+}
+
+&-list{
+
+}
+
+
+
+
+}
