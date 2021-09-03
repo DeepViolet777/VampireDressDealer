@@ -1,0 +1,213 @@
+@import url(normalize.css);
+@import url(global.css);
+.header {
+  margin: 0 auto;
+  max-width: 1440px;
+  height: 169px;
+  color: #000000;
+  margin-bottom: 59px;
+}
+
+.header a {
+  color: #000000;
+  opacity: 0.7;
+}
+
+.header a:hover {
+  color: #000000;
+  opacity: 1;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.header a:active {
+  opacity: 0.3;
+}
+
+.header_top-panel {
+  position: relative;
+  top: 0;
+  z-index: 2;
+}
+
+.header_logo {
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 32px;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+  opacity: 1 !important;
+}
+
+.header_logo:hover {
+  opacity: 0.6 !important;
+}
+
+.header .menu_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 675px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'PlayfairDisplay', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  position: absolute;
+  top: 27px;
+  right: 140px;
+}
+
+.header .menu_item {
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+  opacity: 0.7;
+}
+
+.header_basket {
+  position: relative;
+  top: 33px;
+  left: 1350px;
+  width: 38px;
+  height: 30px;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+  opacity: 0.5;
+}
+
+.header_basket::before {
+  position: absolute;
+  content: "";
+  width: 41px;
+  height: 41px;
+  background-image: url(../img/shopping_cart_black.svg);
+}
+
+.header_basket:hover {
+  opacity: 1;
+}
+
+.header hr {
+  position: absolute;
+  width: 878px;
+  height: 1px;
+  background-color: #E5EEF5;
+  opacity: 0.5;
+  top: 92px;
+  right: 0;
+}
+
+.content {
+  width: 1240px;
+  height: 1000px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+.content-breadcrumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 700px;
+  height: 32px;
+  font-family: 'PlayfairDisplay', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.content-breadcrumb a {
+  color: #000000;
+}
+
+.footer {
+  width: 100%;
+  height: 130px;
+  background-color: #000000;
+  color: #FFFFFF;
+  position: absolute;
+}
+
+.footer a {
+  opacity: 1;
+}
+
+.footer .menu {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  width: 800px;
+  height: 92px;
+}
+
+.footer .menu a {
+  color: #FFFFFF;
+}
+
+.footer .menu_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 675px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'PlayfairDisplay', sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  position: absolute;
+  top: 27px;
+  right: 140px;
+}
+
+.footer .menu_item {
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+.footer .menu_item:hover {
+  opacity: 0.7;
+}
+
+.footer .socials {
+  position: absolute;
+  left: 1000px;
+  top: 40px;
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .socials-link {
+  width: 30px;
+  height: 30px;
+}
+
+.footer .socials .link-insta {
+  background-image: url(../img/instagram-icon.svg);
+}
+
+.footer .socials .link-fb {
+  background-image: url(../img/Facebook_icon.svg);
+}
+
+.footer .socials .link-tiktok {
+  background-image: url(../img/tik-tok.svg);
+}
+
+.footer-content {
+  width: 1000px;
+  height: 92px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=card.css.map */
