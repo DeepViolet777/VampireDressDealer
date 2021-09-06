@@ -96,10 +96,10 @@
   position: absolute;
   width: 878px;
   height: 1px;
-  background-color: #E5EEF5;
-  opacity: 0.5;
+  background-color: #333333;
   top: 92px;
   right: 0;
+  border: none;
 }
 
 .catalog {

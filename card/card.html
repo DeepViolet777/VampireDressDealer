@@ -19,7 +19,7 @@
             <nav class="header_menu menu">
                 <ul class="menu_list">
                     <li class="menu_item">
-                        <a class="menu_link active" href="#">catalog</a>
+                        <a class="menu_link active" href="../catalog/catalog.html">catalog</a>
                     </li>
                     <li class="menu_item">
                         <a class="menu_link" href="#">prints</a>
@@ -58,10 +58,60 @@
             </li>
             <li>></li>
             <li>Printed skirt Winged</li>
-          </ul>
-       
+        </ul>
+
+        <div class="content-item item">
+            <ul class="item-preview preview">
+                <li>
+                    <img  class="preview_img" src="../img/item_1.jpg" alt="">
+                </li>
+                <li>
+                    <img  class="preview_img" src="../img/item_2.jpg" alt="">
+                </li>
+                <li>
+                    <img  class="preview_img" src="../img/item_3.jpg" alt="">
+                </li>  
+            </ul>
+            <div class="item-full">
+                <img src="../img/item_full.jpg" alt="">
+            </div>
+            <div class="item-info">
+                <span class="item-title">
+                    Printed skirt Winged
+                </span>
+                <span class="item-description">
+                    This skirt with velvet belt is made of
+                    cotton, lining of viscose
+                </span>
+                <form class="item-order" action="" method="post">
+                <div class="item-options">
+                    <select name="size" id="size">
+                        <option value="" selected>Choose size</option>
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <div class="quantity">
+                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
+                        <input type="number" class="item-quantity" id="quantity" name="item-quantity" value="1" min="0"
+                            max="10" step="1">
+                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                            class="plus"></button>
+                    </div>
+                </div>
+
+                <span class="item-price">
+                    Price 95,00 USD
+                </span>
+                <button class="buy-btn">Add to busket</button>
+            </form>
+            </div>
+        </div>
+
     </section>
-  <footer class="footer">
+    <footer class="footer">
         <div class="footer-content">
             <nav class="footer_menu menu">
                 <ul class="menu_list">
