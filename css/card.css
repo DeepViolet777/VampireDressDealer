@@ -150,10 +150,34 @@
 
 .content .item .preview_img {
   cursor: pointer;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(88, 80, 80, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(88, 80, 80, 0.25));
+}
+
+.content .item .preview-overlay {
+  position: absolute;
+  width: 158px;
+  height: 194px;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Podkova', sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 80px;
+  color: #FFFFFF;
+  padding-top: 50px;
+}
+
+.content .item .preview .overlayed {
+  position: relative;
 }
 
 .content .item-full {
   margin-left: 57px;
+  width: 504px;
+  height: 762px;
 }
 
 .content .item-info {

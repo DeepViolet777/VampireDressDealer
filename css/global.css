@@ -8,18 +8,18 @@
 }
 
 @font-face {
-  font-family: 'PlayfairDisplay';
-  src: url("../fonts/Playfair_Display/PlayfairDisplay-Bold.eot");
-  src: local("☺"), url("../fonts/Playfair_Display/PlayfairDisplay-Bold.woff") format("woff"), url("../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf") format("truetype"), url("../fonts/Playfair_Display/PlayfairDisplay-Bold.svg") format("svg");
-  font-weight: 700;
+  font-family: 'Podkova';
+  src: url("../fonts/Podkova/Podkova-Regular.eot");
+  src: local("☺"), url("../fonts/Podkova/Podkova-Regular.woff") format("woff"), url("../fonts/Podkova/Podkova-Regular.ttf") format("truetype"), url("../fonts/Podkova/Podkova-Regular.svg") format("svg");
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Gilroy';
-  src: url("../fonts/Gilroy/Gilroy-Medium.eot");
-  src: local("☺"), url("../fonts/Gilroy/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy/Gilroy-Medium.ttf") format("truetype"), url("../fonts/Gilroy/Gilroy-Medium.svg") format("svg");
-  font-weight: 500;
+  font-family: 'NotoSans';
+  src: url("../fonts/Noto_Sans/NotoSans.eot");
+  src: local("☺"), url("../fonts/Noto_Sans/NotoSans.woff") format("woff"), url("../fonts/Noto_Sans/NotoSans.ttf") format("truetype"), url("../fonts/Noto_Sans/NotoSans.svg") format("svg");
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -34,7 +34,8 @@ body {
   height: 100%;
   width: 100%;
   font-family: 'PlayfairDisplay', sans-serif;
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Podkova', sans-serif;
+  font-family: 'NotoSans', sans-serif;
   font-size: 16px;
   line-height: 130%;
   margin: 0;
