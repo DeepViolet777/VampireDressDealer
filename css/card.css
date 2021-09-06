@@ -145,7 +145,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 762px;
+  height: 643px;
 }
 
 .content .item .preview_img {
@@ -261,7 +261,7 @@
 }
 
 .content .item .quantity input[type=number] {
-  width: 20px;
+  width: 27px;
   height: 30px;
   padding: .1rem;
   border: none;

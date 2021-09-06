@@ -94,10 +94,10 @@
                         <option value="XL">XL</option>
                     </select>
                     <div class="quantity">
-                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
+                        <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
                         <input type="number" class="item-quantity" id="quantity" name="item-quantity" value="1" min="0"
                             max="10" step="1">
-                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                        <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
                             class="plus"></button>
                     </div>
                 </div>
