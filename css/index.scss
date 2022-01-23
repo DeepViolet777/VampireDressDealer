@@ -174,7 +174,7 @@
             border-radius: 50%;
             background-image: url(../img/Prev.svg);
             top: -240px;
-            left: 10px;
+            left: 240px;
             cursor: pointer;
         }
 
@@ -186,7 +186,7 @@
             border-radius: 50%;
             background-image: url(../img/Next.svg);
             top: -240px;
-            left: 1380px;
+            left: 1630px;
             cursor: pointer;
         }
 
@@ -233,7 +233,8 @@
 }
 
 .about {
-    margin-bottom: 131px;
+    width: 1420px;
+    margin: 0 auto 131px;
 
     &-title {
         text-align: left;
@@ -265,6 +266,7 @@
             display: flex;
             justify-content: space-between;
             width: 1345px;
+            margin: 0 auto;
         }
 
         &_img {
@@ -351,7 +353,7 @@
     .menu {
         position: absolute;
         top: 0;
-        left: 100px;
+        left: 300px;
         width: 800px;
         height: 92px;
 
@@ -383,7 +385,7 @@
 
     .socials {
         position: absolute;
-        left: 1000px;
+        left: 1500px;
         top: 40px;
         width: 150px;
         display: flex;
